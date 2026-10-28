@@ -43,7 +43,8 @@ The system is intended to help a reviewer understand **what passed, what needs a
 - **Organization:** AICTE
 - **Hackathon:** Smart India Hackathon 2026
 - **Theme:** Smart Automation
-- **Team:** 404
+- **Team:** 4O4
+- **Team:** 4O4
 
 The challenge is to reduce the effort required to review applications and their supporting documents while improving consistency, traceability, and clarity in the verification process.
 
@@ -238,6 +239,7 @@ Potential next steps for the project include:
 ## Team
 
 **Team 404**  
+**Team 4O4**  
 **Project:** AI-Powered Application Validation, Document Authentication & Regulatory Compliance Verification  
 **Hackathon:** Smart India Hackathon 2026  
 **Problem Statement:** SIH26261 · AICTE · Smart Automation
@@ -246,6 +248,7 @@ Potential next steps for the project include:
 
 <div align="center">
 
-**Team 404 — Building smarter verification workflows through automation.**
+**Team 4O4 — Building smarter verification workflows through automation.**
 
 </div>
+git add README.md
