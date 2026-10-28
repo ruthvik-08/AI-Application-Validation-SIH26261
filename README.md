@@ -1,72 +1,81 @@
 AI-Powered Application Validation, Document Authentication & Regulatory Compliance Verification
 
 <p align="center">
-  <strong>SIH26261 | Smart Automation | AICTE</strong>
+  <strong>TEAM 404</strong><br>
+  Smart India Hackathon 2026<br>
+  Problem Statement: SIH26261<br>
+  Organization: AICTE<br>
+  Theme: Smart Automation
 </p>
 <p align="center">
-  An intelligent platform designed to automate application validation, document verification, and regulatory compliance checks using AI-powered technologies.
+  Building intelligent solutions for faster application validation, document authentication, and regulatory compliance verification.
 </p>
 
 ⸻
 
 About the Project
 
-The AI-Powered Application Validation, Document Authentication and Regulatory Compliance Verification system aims to simplify and improve the process of validating applications and verifying submitted documents.
+Team 404 is developing an AI-powered platform to automate application validation, document authentication, and regulatory compliance verification.
 
-Manual verification can be time-consuming, repetitive, and prone to human error. This project aims to streamline the process by combining automated validation, document analysis, and rule-based compliance checking in a unified platform.
+Traditional verification processes can be time-consuming, repetitive, and prone to human error. Our proposed solution aims to simplify these processes through automated validation, document analysis, and configurable compliance checks.
 
-The system is designed to help identify missing information, inconsistencies, potentially suspicious documents, and compliance issues while providing clear results to users.
+The platform is designed to identify missing information, flag inconsistencies, detect potentially suspicious documents, and help users evaluate compliance requirements.
 
 Problem Statement
 
-Problem Statement ID: SIH26261
-Organization: AICTE
-Theme: Smart Automation
-Category: Software
+* Problem Statement ID: SIH26261
+* Organization: AICTE
+* Category: Software
+* Theme: Smart Automation
+* Team Name: 404
 
-Organizations often process large numbers of applications and supporting documents. Manually checking every submission for completeness, authenticity, and regulatory compliance requires significant time and effort.
+Problem Overview
 
-Our proposed solution aims to automate these tasks, improve consistency, reduce repetitive manual work, and support faster, more informed verification decisions.
+Organizations process large numbers of applications and supporting documents. Manually verifying each submission for completeness, authenticity, and regulatory compliance requires considerable time and resources.
 
-Key Objectives
+Our solution aims to streamline this workflow using automation and AI-assisted analysis, helping improve efficiency, consistency, and transparency.
 
-* Application Validation: Check submitted applications for missing fields, incomplete information, and inconsistencies.
-* Document Authentication: Analyze uploaded documents and flag suspicious characteristics for further review.
-* Regulatory Compliance: Evaluate applications against configurable compliance rules and requirements.
-* Automated Analysis: Reduce repetitive manual verification through automated processing.
-* Transparent Results: Provide understandable validation findings, warnings, and compliance results.
-* Scalable Architecture: Build a modular system that can be extended with additional verification methods and AI capabilities.
+Project Objectives
 
-Proposed Features
-
-1. Intelligent Application Validation
-
-* Validate required application fields.
+* Automate application validation.
 * Identify missing or incorrectly formatted information.
-* Detect inconsistencies between application details and supporting documents.
-* Provide actionable validation messages.
+* Analyze uploaded documents for suspicious characteristics.
+* Compare information across applications and supporting documents.
+* Verify submissions against configurable regulatory requirements.
+* Generate understandable validation and compliance reports.
+* Reduce repetitive manual verification work.
 
-2. Document Verification
+Key Features
 
-* Support document uploads through the application interface.
-* Extract document text using OCR where applicable.
-* Compare extracted information with submitted application details.
-* Flag potentially suspicious documents for human review.
+1. Application Validation
 
-3. Regulatory Compliance Engine
+* Check required application fields.
+* Identify incomplete submissions.
+* Detect inconsistencies in submitted information.
+* Display validation errors and suggestions.
 
-* Evaluate submissions against predefined regulatory rules.
+2. Document Authentication
+
+* Support document uploads.
+* Extract text from supported documents using OCR.
+* Compare extracted information with application details.
+* Flag suspicious characteristics for further review.
+
+3. Regulatory Compliance
+
+* Evaluate applications against defined compliance rules.
 * Identify unmet requirements.
 * Categorize findings by severity.
-* Provide a summary of compliance results.
+* Present compliance results in an understandable format.
 
-4. Verification Reports
+4. Verification Dashboard
 
-* Display validation results in an organized format.
-* Summarize missing information, inconsistencies, and compliance issues.
-* Support a structured review process.
+* Display application and document analysis results.
+* Highlight errors and warnings.
+* Summarize compliance findings.
+* Support efficient review of submitted applications.
 
-Note: The features described above represent the project’s intended capabilities. Actual functionality depends on the modules implemented and integrated into the application.
+Note: These are intended project capabilities. Actual functionality depends on the features implemented in the current application.
 
 Technology Stack
 
@@ -75,18 +84,15 @@ Frontend	Next.js, React, TypeScript
 Backend	Python, FastAPI
 API Server	Uvicorn
 Database	SQLite
-Database Integration	SQLAlchemy
-AI and Data Processing	Python-based AI/ML libraries
+Database ORM	SQLAlchemy
+AI/ML	Python-based machine learning libraries
 Document Processing	OCR and document analysis
-Package Management	npm and Python pip
+Package Management	npm and pip
 Version Control	Git and GitHub
 
-Project Architecture
+Project Structure
 
-The application follows a frontend-backend architecture.
-
-AI-Application-Validation-SIH26261/
-│
+SIH26261/
 ├── backend/
 │   ├── main.py
 │   ├── auth_service.py
@@ -94,9 +100,8 @@ AI-Application-Validation-SIH26261/
 │   ├── database.py
 │   ├── models.py
 │   ├── ocr_service.py
-│   ├── verifyai_sih.db
 │   ├── requirements.txt
-│   └── .venv/
+│   └── ...
 │
 ├── frontend/
 │   ├── app/
@@ -107,15 +112,13 @@ AI-Application-Validation-SIH26261/
 │
 └── README.md
 
-The directory tree is illustrative. Adjust it to match the actual files in your repository. Do not commit your virtual environment, private credentials, or sensitive application data.
+System Workflow
 
-How It Works
-
-1. A user submits an application or uploads a supporting document through the frontend.
-2. The frontend communicates with the backend through API requests.
-3. The backend processes the submitted information using the implemented validation and verification services.
+1. The user submits an application or uploads a supporting document.
+2. The frontend sends the relevant information to the backend.
+3. The backend processes the submission using available validation and document-analysis services.
 4. The system evaluates applicable compliance rules.
-5. The frontend presents the resulting findings to the user.
+5. The results are presented to the user for review.
 
 Getting Started
 
@@ -123,7 +126,7 @@ Follow these instructions to run the project locally on macOS.
 
 Prerequisites
 
-Install the following tools before starting:
+Install the following tools:
 
 * Python 3
 * Node.js and npm
@@ -139,18 +142,7 @@ git --version
 
 Installation and Setup
 
-1. Clone the Repository
-
-If you have not already downloaded the project:
-
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd YOUR_PROJECT_DIRECTORY
-
-Replace the placeholders with your actual GitHub repository URL and directory name.
-
-If the project is already open in VS Code, skip this step.
-
-2. Start the Backend
+1. Start the Backend
 
 Open the first terminal in VS Code.
 
@@ -158,63 +150,62 @@ Navigate to the backend directory:
 
 cd "/Users/p.ruthvik/Desktop/ SIH26261/backend"
 
-Activate the Python virtual environment:
+Activate the virtual environment:
 
 source .venv/bin/activate
 
-Start the FastAPI server:
+Start the FastAPI development server:
 
 uvicorn main:app --reload --port 8000
 
-The backend should be available at:
+The backend should now be available at:
 
-* API Base URL: http://127.0.0.1:8000
-* Interactive API Documentation: http://127.0.0.1:8000/docs
+* Backend: http://127.0.0.1:8000
+* API Documentation: http://127.0.0.1:8000/docs
 * Alternative API Documentation: http://127.0.0.1:8000/redoc
 
-Keep this terminal running while using the application.
+Keep this terminal running.
 
-3. Start the Frontend
+2. Start the Frontend
 
-Open a second terminal in VS Code. Keep the backend terminal running.
+Open a second terminal in VS Code.
 
-Navigate to the frontend directory and start the development server:
+Navigate to the frontend directory:
 
 cd "/Users/p.ruthvik/Desktop/ SIH26261/frontend"
+
+Start the development server:
+
 npm run dev
 
 The frontend will usually be available at:
 
 http://localhost:3000
 
-If the terminal displays a different port, use the URL shown in the terminal.
+Keep this terminal running too.
 
-Keep this terminal running as well.
+3. Open the Application
 
-4. Access the Application
-
-1. Start the backend using the instructions above.
+1. Start the backend.
 2. Start the frontend in a separate terminal.
 3. Open http://localhost:3000 in your browser.
-4. Use the application interface to explore the available functionality.
+4. Test the features available in the application.
 
-If the frontend cannot communicate with the backend, check the API URL and the backend’s CORS configuration.
+If the frontend cannot communicate with the backend, check the configured API URL and backend CORS settings.
 
 API Documentation
 
-FastAPI provides interactive API documentation for testing the endpoints exposed by the backend.
+FastAPI provides interactive documentation for testing the backend endpoints.
 
-After starting the backend, visit:
+Once the backend is running, open:
 
 http://127.0.0.1:8000/docs
 
-The available endpoints depend on the routes implemented in backend/main.py and its supporting modules.
+The available endpoints depend on the routes implemented in the backend.
 
-Development Workflow
+Git Workflow
 
-We use Git and GitHub to manage source code and collaborate on development.
-
-Check the current repository status:
+Check the repository status:
 
 git status
 
@@ -224,53 +215,59 @@ git add .
 
 Commit your changes:
 
-git commit -m "Describe your changes"
+git commit -m "Update README for Team 404"
 
-Push the changes to GitHub:
+Push your changes to GitHub:
 
 git push
 
-Before committing, verify that .venv/, .env, local database files containing sensitive data, uploaded documents, and generated secrets are excluded through .gitignore.
+Security reminder: Never commit virtual environments, passwords, API keys, private documents, or sensitive database contents. Make sure your .gitignore excludes these files.
 
-Security and Responsible Verification
+Security and Responsible AI
 
-Document verification and compliance decisions can have significant consequences. The system should be designed to support responsible review.
+Team 404 aims to build a responsible and reliable verification system.
 
 * Protect uploaded documents and personal information.
-* Avoid storing passwords, API keys, or other secrets in source control.
-* Use secure access controls for sensitive records.
+* Keep credentials and secrets out of source control.
 * Distinguish between missing information, suspicious indicators, and confirmed discrepancies.
-* Treat automated findings as decision-support information rather than definitive proof of fraud.
-* Keep regulatory rules configurable and document their sources and applicability.
-* Require appropriate human review for high-impact decisions.
+* Provide clear explanations for automated findings.
+* Use human review for high-impact verification decisions.
+* Keep compliance rules configurable and traceable to their sources.
+
+Automated analysis should support verification decisions rather than independently establish that a document is fraudulent or guarantee regulatory compliance.
 
 Future Enhancements
 
 Potential improvements include:
 
 * Advanced OCR for scanned documents.
-* AI-assisted detection of document inconsistencies and tampering indicators.
+* AI-assisted document tampering analysis.
 * Cross-document information matching.
 * Configurable regulatory rule management.
-* Downloadable verification and compliance reports.
-* Role-based access control and audit logs.
-* Improved test coverage and automated deployment.
-* Integration with authorized document verification services.
+* Downloadable compliance reports.
+* Role-based access control.
+* Audit logging and verification history.
+* Automated testing and deployment.
 
-Team and Contributions
+Team
 
-This project is being developed as a solution to the Smart India Hackathon problem statement SIH26261.
+Team Name: 404
 
-Contributions, suggestions, and technical improvements are welcome. Contributors should describe their changes clearly and test relevant functionality before submitting them.
+Project: AI-Powered Application Validation, Document Authentication and Regulatory Compliance Verification
+
+Problem Statement: SIH26261
+
+Hackathon: Smart India Hackathon 2026
 
 Disclaimer
 
-This project is intended to support application validation, document review, and regulatory compliance workflows. Its results depend on the quality of submitted information, implemented verification methods, and configured rules.
+This project is intended to support application validation, document review, and regulatory compliance workflows. Results depend on the submitted information, implemented verification methods, and configured rules.
 
-Automated analysis does not independently establish that a document is genuine or fraudulent, nor does it guarantee regulatory compliance.
+Automated findings are not definitive proof of fraud and should be reviewed appropriately before consequential decisions are made.
 
 ⸻
 
 <p align="center">
-  <strong>Built for smarter, faster, and more consistent application verification.</strong>
+  <strong>TEAM 404</strong><br>
+  <em>Building smarter solutions through AI and automation.</em>
 </p>
